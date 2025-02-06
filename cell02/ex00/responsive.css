@@ -1,0 +1,48 @@
+/* Reset margins and paddings */
+body, table {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Box colors */
+.box1 {
+    background-color: #AEC6CF; /* Light Blue */
+}
+
+.box2 {
+    background-color: #FFB6C1; /* Light Pink */
+}
+
+/* Make the table responsive */
+@media (max-width: 768px) {
+    td {
+        width: 100%;
+        height: auto;
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+}
+
+/* For very small screens, make sure the table remains responsive */
+@media (max-width: 200px) {
+    td {
+        font-size: 18px; /* Reduce font size on small screens */
+    }
+}

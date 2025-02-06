@@ -1,0 +1,45 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+.parallax {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1 {
+    background-image: url('https://scontent.furt2-1.fna.fbcdn.net/v/t1.6435-9/83881160_106210640946819_605180343913283584_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Gip94m0O3rIQ7kNvgGkxOOR&_nc_oc=AdguW1J18N94fe3Skwtac0_ySbD2zwf5X8Ma-WsMS6VIL-wx5SvhGkapTfE85ZcfYpPAV5nqAqf83GAkm1MGS5mM&_nc_zt=23&_nc_ht=scontent.furt2-1.fna&_nc_gid=AvGa_seRHFbI55WJJzEVM8X&oh=00_AYAHaR9Gw1JHmYbWAMs90M2KAYlwUON__vzvC9qyW5Jvug&oe=67CB9725');
+}
+
+.image2 {
+    background-image: url('https://pbs.twimg.com/media/FD-kLC4VQAAT15c?format=jpg&name=small');
+}
+
+.text {
+    color: white;
+    font-size: 24px;
+}
+
+.black-block {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    min-height: 150vh;
+}
