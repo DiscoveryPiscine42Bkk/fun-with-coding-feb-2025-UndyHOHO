@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 06: Responsive</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            width: 100%;
+            height: 100vh; /* Makes the table cover the full viewport height */
+            border-collapse: collapse;
+        }
+
+        td {
+            width: 50%;
+            height: 100%;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 24px;
+            padding: 20px;
+        }
+
+        .box1 {
+            background-color: #AEC6CF; /* สีฟ้าพาสเทล */
+        }
+
+        .box2 {
+            background-color: #FFB6C1; /* สีชมพูพาสเทล */
+        }
+
+        /* Make sure the table resizes gracefully */
+        @media (max-width: 200px) {
+            td {
+                width: 100%; /* Make the boxes take up full width on smaller screens */
+                height: auto; /* Adjust the height when stacked */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td class="box1">This is Box 1</td>
+            <td class="box2">This is Box 2</td>
+        </tr>
+    </table>
+
+</body>
+</html>
